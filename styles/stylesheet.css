@@ -1,0 +1,61 @@
+/* Initial default browser margins/padding */
+
+{ margin: 0; padding: 0; }
+
+
+/*-----------------------------------*/
+/*       html tag selectors          */
+/*-----------------------------------*/
+
+h1 { color: purple; text-align: center; }
+
+a { color: white; }
+
+nav { background-color: MediumOrchid; 
+      text-align: center; }
+
+header li { display: inline-block; 
+            padding: .5em 1em; 
+            border-left: 3px solid gray;
+            background-color: MediumOrchid; }
+
+header li:first-of-type { border-left: none; }
+
+a:link { text-decoration:  none; }
+
+footer img { max-width: 5%; margin: 2rem; }
+section img { max-width: 85%; }
+
+/*---------------------------*/
+/*     class selectors       */
+/*---------------------------*/
+
+.leftfloat { float: left; }
+
+.rightfloat { float: right; }
+
+.clearfloat { clear: both; }
+
+.center { text-align: center; }
+
+/*---------------------------*/
+/*      id selectors         */
+/*---------------------------*/
+
+#main { display: flex; 
+        align-items: center;
+        height: 350px; }
+
+#leftSide { padding: 110px 60px 120px 50px;
+            margin: 0px 50x 0px 50px; }
+
+#leftSide ul { padding: 0px 10px 0px 0px;
+               margin: 0px 10px 0px 0px; }
+
+#leftSide li { list-style-type: none; 
+               margin-bottom: 5px; }
+
+#rightSide { background-color: Lavender; 
+             padding: 0px 15px 0px 25px;
+             margin: 0px 15px 0px 15px; 
+             max-width: 70%;}
